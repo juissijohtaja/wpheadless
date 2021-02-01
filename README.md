@@ -2,6 +2,9 @@
 
 Testing how to use WordPress as a headless CMS with a React frontend app. The idea is that the React app gets content from a WordPress CMS (running in Google Cloud Run) using a REST api.
 
+Demo
+[React app](https://wpheadless-e3cfihqsoq-lz.a.run.app/)
+
 ### docker
  - docker build -t wpheadless .
  - docker run -dp 8080:8080 wpheadless
